@@ -29,7 +29,8 @@ export default NavBar;
 
 
 const NavBarWrapper = styled.div`
-  padding: 0 2rem;
+// border: 2px solid red;
+  margin-left: 150px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -40,6 +41,7 @@ const NavBarWrapper = styled.div`
 `;
 
 const LeftWrapper = styled.div`
+  padding-left:150px;
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -53,6 +55,7 @@ const RightWrapper = styled.div`
   display: flex;
   gap: 1rem;
 
+padding-right:30px;
   @media screen and (max-width: 800px) {
     gap: 0.4rem;
   }
