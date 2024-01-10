@@ -5,6 +5,7 @@ import NavBar from './components/Navbar';
 import Timeline from './components/Timeline';
 
 import Card from './components/Card';
+import TableData from './components/TableData';
 
 
 
@@ -16,6 +17,7 @@ function App() {
       <span><div> <NavBar /></div></span>
       <div><Timeline /></div>
       <div><Card /></div>
+      <div><TableData/></div>
     </div>
   );
 }
