@@ -30,7 +30,7 @@ export default Card;
 const CardSectionWrapper = styled.div`
 width:80%;
 margin-left:15%;
-
+cursor:pointer;
 justify-content:space-between;
   margin-top: 2rem;
   padding: 0 2rem;
